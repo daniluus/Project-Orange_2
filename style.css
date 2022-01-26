@@ -1,0 +1,85 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #F4F3F3;
+}
+
+/* HEADER */
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #121212;
+    height: 20vh;    
+}
+
+header .logo{
+    position: relative;
+    width: 150px;
+    top: 30px;
+}
+
+header h2{
+    background: #171717;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 4px 4px 4px rgba(231, 60, 8, 0.884);
+
+    border-radius: 10px;
+}
+
+/* MAIN */
+
+main {
+    background: #FFFFFF;
+    width: 80vw;
+    height: 949px;
+    box-shadow: 10px 4px 50px rgba(0, 0, 0, 0.5);
+    margin: 0 auto;
+
+    padding-top: 100px;
+}
+
+main .search{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+main .search input{
+    height: 6vh;
+    padding-left: 20px;
+
+    border-radius: 20px;
+
+    margin: 20px;
+}
+
+.search button{
+    background-color: #f75308;
+    padding: 5px;
+
+    border-radius: 10px;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.5);
+
+    transition: .5s;
+}
+
+.search button:hover{
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+
+    cursor: pointer;
+}
+
+.search button img{
+    width: 30px;
+}
+
+#app{
+    width: 50vw;
+
+    margin: auto;
+}
